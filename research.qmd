@@ -1,16 +1,17 @@
 ---
-title: "Aman Desai"
-subtitle: "PhD Candidate in Economics"
+title: "Research"
 ---
 
 
 ## Working Papers
 
-- Measuring Income Inequality of Opportunity : Accounting for Dynamic Complementarity (Job Market Paper) 
+- Measuring Income Inequality of Opportunity : Accounting for Dynamic Complementarity (Job Market Paper)          
+    + [PDF](https://osf.io/preprints/socarxiv/ud42t_v1), [Interview](https://stonecenter.gc.cuny.edu/measuring-inequality-of-opportunity-and-the-importance-of-childhood-circumstances/) 
+
 
 
 - Effects of COVID-19 on the Academic Performance of College Students, with Theodore Joyce
-
+    + [PDF](/research_content/covid-draft.pdf)
 
 ## Works in Progress
 
