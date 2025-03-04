@@ -12,7 +12,7 @@ about: # https://quarto.org/docs/websites/website-about.html
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/amanodesai/
-    - icon: envelope # icon name without the 'fa-'
+    - icon: envelope 
       text: Email
       href: mailto:adesai@gradcenter.cuny.edu 
 ---
@@ -29,4 +29,4 @@ State University of New York, Buffalo \| New York \| Aug 2016 - May 2018
 
 ## Experience
 
-Workplace \| Job title \| April 20XX - present
+Baruch College \| Adjunct Lecturer \| Aug 2019 - present
