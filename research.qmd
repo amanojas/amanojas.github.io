@@ -1,18 +1,17 @@
 ---
 title: "Aman Desai"
 subtitle: "PhD Candidate in Economics"
-# `profile.jpg` photo by Jan Tinneberg on https://unsplash.com
-image: profile.jpg
-about: # https://quarto.org/docs/websites/website-about.html
-  template: solana
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/amanojas
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/amanodesai/
-    - icon: envelope # icon name without the 'fa-'
-      text: Email
-      href: mailto:adesai@gradcenter.cuny.edu 
 ---
+
+
+## Working Papers
+
+- Measuring Income Inequality of Opportunity : Accounting for Dynamic Complementarity (Job Market Paper) 
+
+
+- Effects of COVID-19 on the Academic Performance of College Students, with Theodore Joyce
+
+
+## Works in Progress
+
+- Measuring Educational Inequality of Opportunity in the US
