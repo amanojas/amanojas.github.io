@@ -11,9 +11,11 @@ website:
       - text: Home
         href: index.qmd
       - text: Research
-        href: research.qmd  
+        href: research.qmd
+      - text: Teaching
+        href: teaching.qmd  
       
 format:
   html:
-    theme: [cosmo, styles.scss]
+    theme: [flatly, styles.scss]
 
