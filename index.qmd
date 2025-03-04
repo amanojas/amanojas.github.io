@@ -1,0 +1,32 @@
+---
+title: "Aman Desai"
+subtitle: "PhD Candidate in Economics"
+# `profile.jpg` photo by Jan Tinneberg on https://unsplash.com
+image: profile.jpg
+about: # https://quarto.org/docs/websites/website-about.html
+  template: solana
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/amanojas
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/amanodesai/
+    - icon: envelope # icon name without the 'fa-'
+      text: Email
+      href: mailto:adesai@gradcenter.cuny.edu 
+---
+
+I am a PhD candidate in economics at the CUNY Graduate Center and a junior scholar at the [Stone Center on Socio-Economic Inequality](https://stonecenter.gc.cuny.edu/people/desai-aman/). My primary research fields are labor economics and applied microeconometrics. In my job market paper, I incorporate dynamic complementarity into the measurement of income inequality of opportunity using supervised machine learning. Additionally, I employ causal inference and machine learning techniques to examine inequality in educational and health opportunities, focusing on the roles of families, markets, and government. Feel free to reach out at [adesai@gradcenter.cuny.edu](mailto:adesai@gradcenter.cuny.edu)
+
+
+
+## Education
+
+CUNY Graduate Center, NYC \| New York \| Aug 2018 - June 2025 (Expected)
+
+State University of New York, Buffalo \| New York \| Aug 2016 - May 2018
+
+## Experience
+
+Workplace \| Job title \| April 20XX - present
