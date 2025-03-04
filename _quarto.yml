@@ -10,6 +10,8 @@ website:
     right:
       - text: Home
         href: index.qmd
+      - text: CV
+        href: /cv-aman-desai.pdf  
       - text: Research
         href: research.qmd
       - text: Teaching
