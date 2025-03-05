@@ -5,6 +5,7 @@ subtitle: "PhD Candidate in Economics"
 image: profile.jpg
 about: # https://quarto.org/docs/websites/website-about.html
   template: solana
+  image-shape: round
   links:
     - icon: github
       text: Github
@@ -23,13 +24,16 @@ I am a PhD candidate in economics at the CUNY Graduate Center and a junior schol
 
 ## Education
 
-CUNY Graduate Center, NYC \| New York \| Aug 2018 - June 2025 (Expected)
+**PhD in Economics**, CUNY Graduate Center, expected 2025
 
-State University of New York, Buffalo \| New York \| Aug 2016 - May 2018
+**MS in Econometrics and Quantitative Economics**, SUNY at Buffalo, 2018 
+
+**BTech in Civil Engineering**, Gujarat Technological University, 2014 
 
 ## Experience
 
-Baruch College \| Adjunct Lecturer \| Aug 2019 - present
+**Adjunct Lecturer**, Baruch College,  Aug 2019 - present
 
-Brooklyn College
+**Adjunct Lecturer**, Brooklyn College, Aug 2019 - Jan 2020
+
 
