@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2ab032434e0fe7658f986f1506e922d3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -147,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>Effects of COVID-19 on the Academic Performance of College Students
 <ul>
-<li><p><a href=".\research_content/covid-draft.pdf">PDF</a></p></li>
+<li><p><a href="./research_content/covid-draft.pdf">PDF</a></p></li>
 <li><p><strong>Abstract</strong> : I analyze the impact of the COVID-19 pandemic on undergraduates’ performance in an introductory economics course at a large public university. One challenge in analyzing student academic outcomes during the pandemic was the explicit change in grading policies by college administrators as well as the implicit adjustment by faculty designed to mitigate the impact of an abrupt shift to online learning amidst the stress and uncertainly associated with the pandemic. To limit the impact of grading policies, I analyze changes in the raw scores on a common final administered to all sections of the course the year before and for four semesters after the spring of 2020. To limit variation in the difficulty of the exams from before to during the pandemic, I compare student performance on nearly identical questions on the final exam overtime. Adjusted mean scores on the common final fell by a point and the probability of answering the qualitatively same question on the final fell, on average, by 1.5 percentage points. Students with lower GPAs were 3.3 percentage points (or 0.02 standard deviations) less likely to answer similar questions correctly relative to students with higher GPAs during the pandemic. Also, the mean probability of answering a nearly identical question before and after suddenly moving to online classes increased by 5.6 percentage points.</p></li>
 </ul></li>
 </ul>
@@ -244,8 +244,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -356,7 +354,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
