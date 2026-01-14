@@ -3,6 +3,13 @@ title: "Teaching"
 
 ---
 
+### Quinnipiac University
+
+- **EC 1001 Principles of Macroeconomics** (Spring 2026)
+    + [Sample Syllabus](/teaching_content/EC 112/ec112_04_syllabus.pdf)
+
+- **EC 111 Principles of Microeconomics** (Fall 2025)
+    + [Sample Syllabus](/teaching_content/EC 111/ec111_03_course_syllabus.docx)
 
 ### Baruch College
 
@@ -16,8 +23,7 @@ title: "Teaching"
     + [Sample Syllabus](/teaching_content/ECO 1110/ECO_1110_Spring_2022.html)
 
 
-    
-### Brooklyn College    
+### Brooklyn College
 
 - **BUSN 3400 Introduction to Economic and Business Statistics** (Spring 2020, Fall 2019)
     + [Sample Syllabus](/teaching_content/BUSN 3400/Syllabus_3400Spring2020.docx)
