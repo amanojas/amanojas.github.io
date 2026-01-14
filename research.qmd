@@ -4,8 +4,17 @@ title: "Research"
 
 ## Working Papers
 
-- **Measuring Income Inequality of Opportunity: Accounting for Dynamic Complementarity**, Stone Center Working Paper Series. no. 98. 2024.,[PDF](https://osf.io/preprints/socarxiv/ud42t_v1), [Latest draft](/research_content/jae_special_issue_draft.pdf), [Interview](https://stonecenter.gc.cuny.edu/measuring-inequality-of-opportunity-and-the-importance-of-childhood-circumstances/) 
+**Measuring Income Inequality of Opportunity: Accounting for Dynamic Complementarity**
+*Stone Center Working Paper Series, no. 98, 2024*
 
-- **Effects of COVID-19 on the Academic Performance of College Students**, [PDF](/research_content/covid-draft.pdf)
+[{{< fa file-pdf >}} PDF](https://osf.io/preprints/socarxiv/ud42t_v1) | [{{< fa file-lines >}} Latest Draft](/research_content/jae_special_issue_draft.pdf) | [{{< fa microphone >}} Interview](https://stonecenter.gc.cuny.edu/measuring-inequality-of-opportunity-and-the-importance-of-childhood-circumstances/)
 
-- **Measuring Educational Inequality of Opportunity in the US**
+---
+
+**Effects of COVID-19 on the Academic Performance of College Students**
+
+[{{< fa file-pdf >}} PDF](/research_content/covid-draft.pdf)
+
+---
+
+**Measuring Educational Inequality of Opportunity in the US**

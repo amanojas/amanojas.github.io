@@ -1,19 +1,15 @@
 ---
 title: "Aman Desai"
 subtitle: "Assistant Professor of Economics and Data Science"
-#image: profile.jpg
-about: # https://quarto.org/docs/websites/website-about.html
-  template: marquee
+about:
+  template: trestles
   image-shape: round
   links:
     - icon: github
-      text: Github
       href: https://github.com/amanojas
     - icon: linkedin
-      text: LinkedIn
       href: https://www.linkedin.com/in/amanodesai/
-    - icon: envelope 
-      text: Email
+    - icon: envelope
       href: mailto:aman.desai@quinnipiac.edu
 ---
 
