@@ -3,7 +3,7 @@ title: "Aman Desai"
 subtitle: "Assistant Professor of Economics and Data Science"
 #image: profile.jpg
 about: # https://quarto.org/docs/websites/website-about.html
-  template: solana
+  template: jolla
   image-shape: round
   links:
     - icon: github
