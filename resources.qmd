@@ -1,0 +1,12 @@
+---
+title: "Resources"
+---
+
+### AI for Economists — Two-session Workshop
+
+- **AI for Economists — Two-session Workshop** (Spring 2026)
+    + Two 50-minute sessions introducing practical AI tools for economic analysis.
+    + Session 1 — [Slides](/resources/AI for Economics workshop/session1-slides.html) • [Notebook](/resources/AI for Economics workshop/session1-notebook.html)
+    + Session 2 — [Session 2 materials](/resources/AI for Economics workshop/proj1-gmd-live-demo.html)
+
+

@@ -74,7 +74,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Quinnipiac University\n\nEC 1001 — Principles of Macroeconomics (Spring 2026) — Syllabus\nEC 111 — Principles of Microeconomics (Fall 2025) — Syllabus\n\n\n\nBaruch College\n\nECO 1002 — Macroeconomics (Spring 2025, Fall 2024, Spring 2024, Spring 2021, Fall 2021) — Syllabus\nECO 4000 — Statistical Analysis for Economics and Finance (Summer 2024, Fall 2023, Summer 2023, Spring 2023, Fall 2022, Summer 2022, Spring 2022) — Syllabus\nECO 1110 — Current Economic Problems (Spring 2022, Fall 2021, Spring 2021, Fall 2020, Spring 2020, Fall 2019) — Syllabus\n\n\n\nBrooklyn College\n\nBUSN 3400 — Introduction to Economic and Business Statistics (Spring 2020, Fall 2019) — Syllabus"
+    "text": "Quinnipiac University (Fall 2025 - Current)\n\nEC 112 — Principles of Macroeconomics — Syllabus\nEC 111 — Principles of Microeconomics — Syllabus\n\n\n\nBaruch College (Fall 2019 - Spring 2025)\n\nECO 1002 — Macroeconomics — Syllabus\nECO 4000 — Statistical Analysis for Economics and Finance — Syllabus\nECO 1110 — Current Economic Problems — Syllabus\n\n\n\nBrooklyn College (Fall 2019 - Spring 2020)\n\nBUSN 3400 — Introduction to Economic and Business Statistics — Syllabus"
   },
   {
     "objectID": "teaching_content/ECO 1110/ECO_1110_Spring_2022.html",
@@ -471,6 +471,209 @@
   {
     "objectID": "live_demo/proj1-gmd-live-demo.html#questions",
     "href": "live_demo/proj1-gmd-live-demo.html#questions",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "7.5 Questions?",
+    "text": "7.5 Questions?\n\n\n\n\n\n\n💬 After class:\n\n\n\n\nEmail me with questions: YOUR-EMAIL\nOffice hours: [YOUR DAYS/TIMES]\nPost in course discussion board\nWork with classmates!\n\n\n\n\n🎉 Congratulations! You’ve completed the live demo!\nNow try changing the country, re-running all chunks, and rendering your own version!\n\n\n✅ Demo complete! Now customize and render your own version."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "AI for Economists — Two-session Workshop\n\nAI for Economists — Two-session Workshop (Spring 2026)\n\nTwo 90-minute sessions introducing practical AI tools for economic analysis.\nSession 1 — Slides • Notebook\nSession 2 — Slides • Notebook"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "",
+    "text": "By the end of this demo, everyone will be able to:\n\nOpen a Quarto document in Positron\nRun R code step-by-step (chunk-by-chunk)\nUse GitHub Copilot to speed up coding (without turning off your brain)\nLoad, clean, and analyze the GMD Excel dataset used in Project 1\nRender this document into an HTML report you can submit/share\n\n\n\n\n\n\n\n📁 Files you need in the SAME folder as this .qmd\n\n\n\n\nGMD_sub_1995_2019.xlsx (the dataset used in Project 1)\nThis file: proj1-gmd-live-demo.qmd\n\n\n\n\n\n\n\n\n\n💻 How to render (Positron Terminal)\n\n\n\n# Preview while editing (auto-refreshes)\nquarto preview proj1-gmd-live-demo.qmd\n\n# Render to HTML (creates .html file)\nquarto render proj1-gmd-live-demo.qmd --to html\n\n# Render to PDF (needs LaTeX)\nquarto render proj1-gmd-live-demo.qmd --to pdf\n\n\n\n\n\n\n\n\n🚀 How to follow along in class\n\n\n\n\nOpen this file in Positron\nClick on any code chunk\nPress Ctrl+Enter (Windows/Linux) or Cmd+Enter (Mac) to run that chunk\nWatch the output appear below the chunk\nMove to next chunk and repeat"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#goal-for-today",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#goal-for-today",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "",
+    "text": "By the end of this demo, everyone will be able to:\n\nOpen a Quarto document in Positron\nRun R code step-by-step (chunk-by-chunk)\nUse GitHub Copilot to speed up coding (without turning off your brain)\nLoad, clean, and analyze the GMD Excel dataset used in Project 1\nRender this document into an HTML report you can submit/share\n\n\n\n\n\n\n\n📁 Files you need in the SAME folder as this .qmd\n\n\n\n\nGMD_sub_1995_2019.xlsx (the dataset used in Project 1)\nThis file: proj1-gmd-live-demo.qmd\n\n\n\n\n\n\n\n\n\n💻 How to render (Positron Terminal)\n\n\n\n# Preview while editing (auto-refreshes)\nquarto preview proj1-gmd-live-demo.qmd\n\n# Render to HTML (creates .html file)\nquarto render proj1-gmd-live-demo.qmd --to html\n\n# Render to PDF (needs LaTeX)\nquarto render proj1-gmd-live-demo.qmd --to pdf\n\n\n\n\n\n\n\n\n🚀 How to follow along in class\n\n\n\n\nOpen this file in Positron\nClick on any code chunk\nPress Ctrl+Enter (Windows/Linux) or Cmd+Enter (Mac) to run that chunk\nWatch the output appear below the chunk\nMove to next chunk and repeat"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#step-0-installload-packages",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#step-0-installload-packages",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "0.2 Step 0 — Install/Load Packages",
+    "text": "0.2 Step 0 — Install/Load Packages\nRun this chunk FIRST. If you get errors, you may need to install packages first.\n\n# Load required packages\nlibrary(tidyverse)   # for data manipulation and plotting\nlibrary(readxl)      # for reading Excel files\nlibrary(writexl)     # for writing Excel files\nlibrary(glue)        # for string formatting\n\n\n\n\n\n\n\n🤖 Copilot prompt to try\n\n\n\nType this comment in a code chunk and press Tab or Ctrl+I:\nCopilot will suggest code to auto-install missing packages!"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#step-1-student-inputs-edit-these",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#step-1-student-inputs-edit-these",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "0.3 Step 1 — Student Inputs (EDIT THESE!)",
+    "text": "0.3 Step 1 — Student Inputs (EDIT THESE!)\n👉 Students: Change these three variables for YOUR project\n\n# CHANGE THESE VALUES FOR YOUR PROJECT\nmy_country &lt;- \"Thailand\"    # Pick from list below\nstart_date &lt;- 2000          # Earliest: 1995\nend_date &lt;- 2019            # Latest: 2019 (2018 for Ireland/Mexico)\n\ndata_file &lt;- \"GMD_sub_1995_2019.xlsx\"\n\n\n\n\n\n\n\n📋 20 Ideal Country Options (Pick ONE!)\n\n\n\n“Argentina”, “Australia”, “Brazil”, “Chile”, “Colombia”, “Costa Rica”, “Hungary”, “Iceland”, “Indonesia”, “Ireland” (2018), “Malaysia”, “Mexico” (2018), “New Zealand”, “Peru”, “Philippines”, “Poland”, “South Africa”, “South Korea”, “Sri Lanka”, “Thailand”\nDemo countries: “Canada”, “United Kingdom”, “United States”\n\n\n\n# Check if data file exists\nif (!file.exists(data_file)) {\n  stop(glue(\n    \"❌ Cannot find `{data_file}` in the current folder.\\n\",\n    \"Fix: Put the Excel file in the same folder as this .qmd, then re-run.\"\n  ))\n} else {\n  glue(\"✅ Found data file: {data_file}\")\n}\n\n✅ Found data file: GMD_sub_1995_2019.xlsx"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#step-2-read-and-filter-data",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#step-2-read-and-filter-data",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "0.4 Step 2 — Read and Filter Data",
+    "text": "0.4 Step 2 — Read and Filter Data\nThis loads the Excel file and filters it to your chosen country and years.\n\nProj1 &lt;- read_excel(data_file) %&gt;%\n  filter(year &gt;= start_date, year &lt;= end_date) %&gt;%\n  filter(countryname == my_country)\n\n# Show first few rows\nhead(Proj1)\n\n# A tibble: 6 × 52\n  countryname ISO3   year    nGDP   rGDP rGDP_pc rGDP_USD deflator   cons  rcons\n  &lt;chr&gt;       &lt;chr&gt; &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n1 Thailand    THA    2000 5069820 5.25e6  83465.  221243.     96.5 3.43e6 3.57e6\n2 Thailand    THA    2001 5345001 5.44e6  85544.  228863.     98.3 3.71e6 3.76e6\n3 Thailand    THA    2002 5769578 5.77e6  90053.  242936.    100.  3.97e6 3.97e6\n4 Thailand    THA    2003 6317303 6.18e6  95807.  260401.    102.  4.33e6 4.25e6\n5 Thailand    THA    2004 6954282 6.57e6 101136.  276779.    106.  4.80e6 4.53e6\n6 Thailand    THA    2005 7614411 6.85e6 104693.  288369     111.  5.29e6 4.76e6\n# ℹ 42 more variables: cons_GDP &lt;dbl&gt;, inv &lt;dbl&gt;, inv_GDP &lt;dbl&gt;, finv &lt;dbl&gt;,\n#   finv_GDP &lt;dbl&gt;, exports &lt;dbl&gt;, exports_GDP &lt;dbl&gt;, imports &lt;dbl&gt;,\n#   imports_GDP &lt;dbl&gt;, CA &lt;dbl&gt;, CA_GDP &lt;dbl&gt;, USDfx &lt;dbl&gt;, REER &lt;dbl&gt;,\n#   govexp &lt;dbl&gt;, govexp_GDP &lt;dbl&gt;, govrev &lt;dbl&gt;, govrev_GDP &lt;dbl&gt;,\n#   govtax &lt;dbl&gt;, govtax_GDP &lt;dbl&gt;, govdef &lt;dbl&gt;, govdef_GDP &lt;dbl&gt;,\n#   govdebt &lt;dbl&gt;, govdebt_GDP &lt;dbl&gt;, HPI &lt;lgl&gt;, CPI &lt;dbl&gt;, infl &lt;dbl&gt;,\n#   pop &lt;dbl&gt;, unemp &lt;dbl&gt;, strate &lt;dbl&gt;, ltrate &lt;dbl&gt;, cbrate &lt;dbl&gt;, …\n\n\n\n# Quick data check\nProj1 %&gt;%\n  summarise(\n    country = first(countryname),\n    min_year = min(year, na.rm = TRUE),\n    max_year = max(year, na.rm = TRUE),\n    n_rows = n(),\n    n_columns = ncol(.)\n  ) %&gt;%\n  knitr::kable(caption = \"Data Summary\")\n\n\nData Summary\n\n\ncountry\nmin_year\nmax_year\nn_rows\nn_columns\n\n\n\n\nThailand\n2000\n2019\n20\n52\n\n\n\n\n\n\n\n\n\n\n\n⚠️ If you get 0 rows\n\n\n\nThat means: - Country name doesn’t match exactly (check spelling/capitalization) - Year range is outside available data - Data file is wrong/corrupted"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#a.-current-account-vs-trade-balance-time-series",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#a.-current-account-vs-trade-balance-time-series",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "1.1 1A. Current Account vs Trade Balance (Time Series)",
+    "text": "1.1 1A. Current Account vs Trade Balance (Time Series)\nTheory: Current Account (CA) = Trade Balance (TB) + Income Balance (IB)\nLet’s plot CA and TB together to see how closely they move.\n\nggplot(Proj1, aes(x = year)) +\n  geom_line(aes(y = CA, color = \"Current Account\"), linewidth = 1) +\n  geom_line(aes(y = trade_balance, color = \"Trade Balance\"), linewidth = 1) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", alpha = 0.5) +\n  labs(\n    title = paste(my_country, \": Current Account and Trade Balance\"),\n    subtitle = paste(start_date, \"–\", end_date),\n    x = NULL,\n    y = \"Millions (local currency)\",\n    color = NULL\n  ) +\n  theme_minimal(base_size = 12) +\n  theme(legend.position = \"bottom\")\n\n\n\n\nCurrent Account and Trade Balance over time\n\n\n\n\n\n\n\n\n\n\n📊 What to look for:\n\n\n\n\nDo CA and TB move together?\nAre they close in value?\nWhen do they diverge?\nAre both positive, both negative, or mixed?"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#b.-current-account-vs-trade-balance-scatter-plot",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#b.-current-account-vs-trade-balance-scatter-plot",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "1.2 1B. Current Account vs Trade Balance (Scatter Plot)",
+    "text": "1.2 1B. Current Account vs Trade Balance (Scatter Plot)\nThis shows the relationship between CA and TB more clearly.\n\nggplot(Proj1, aes(x = CA, y = trade_balance)) +\n  geom_point(size = 3, alpha = 0.6) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", color = \"gray50\") +\n  geom_vline(xintercept = 0, linetype = \"dashed\", color = \"gray50\") +\n  geom_abline(intercept = 0, slope = 1, linetype = \"dashed\", color = \"red\") +\n  labs(\n    title = paste(my_country, \": Current Account vs Trade Balance\"),\n    subtitle = \"Red dashed line: perfect 1:1 relationship\",\n    x = \"Current Account\",\n    y = \"Trade Balance\"\n  ) +\n  theme_minimal(base_size = 12)\n\n\n\n\nScatter plot of Current Account vs Trade Balance\n\n\n\n\n\n\n\n\n\n\n🔍 Interpretation guide:\n\n\n\n\nPoints on red line: CA = TB (no income balance)\nPoints above red line: TB &gt; CA (negative income balance)\nPoints below red line: CA &gt; TB (positive income balance)"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#c.-correlation-between-ca-and-tb",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#c.-correlation-between-ca-and-tb",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "1.3 1C. Correlation Between CA and TB",
+    "text": "1.3 1C. Correlation Between CA and TB\nCalculate the correlation coefficient to quantify the relationship.\n\ncor_CA_TB &lt;- cor(\n  x = Proj1$CA,\n  y = Proj1$trade_balance,\n  method = \"pearson\",\n  use = \"complete.obs\"\n)\n\nglue(\"Correlation (CA, TB) = {round(cor_CA_TB, 4)}\")\n\nCorrelation (CA, TB) = 0.9735\n\n\n\n\n\n\n\n\n🤖 Copilot prompt to try:\n\n\n\n# Explain why the correlation between CA and TB is close to but not exactly 1"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#d.-calculate-income-balance",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#d.-calculate-income-balance",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "1.4 1D. Calculate Income Balance",
+    "text": "1.4 1D. Calculate Income Balance\nIncome Balance = CA − TB\nThis represents net income from foreign assets (interest, dividends, etc.)\n\nProj1 &lt;- Proj1 %&gt;%\n  mutate(income_balance = CA - trade_balance)\n\n# Show summary statistics\nProj1 %&gt;%\n  summarise(\n    mean_IB = mean(income_balance, na.rm = TRUE),\n    median_IB = median(income_balance, na.rm = TRUE),\n    min_IB = min(income_balance, na.rm = TRUE),\n    max_IB = max(income_balance, na.rm = TRUE)\n  ) %&gt;%\n  knitr::kable(digits = 2, caption = \"Income Balance Summary Statistics\")\n\n\nIncome Balance Summary Statistics\n\n\nmean_IB\nmedian_IB\nmin_IB\nmax_IB\n\n\n\n\n-263275.2\n-203737.7\n-525965.6\n57392.56"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#e.-plot-all-three-ca-tb-and-income-balance",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#e.-plot-all-three-ca-tb-and-income-balance",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "1.5 1E. Plot All Three: CA, TB, and Income Balance",
+    "text": "1.5 1E. Plot All Three: CA, TB, and Income Balance\n\nggplot(Proj1, aes(x = year)) +\n  geom_line(aes(y = CA, color = \"Current Account\"), linewidth = 1) +\n  geom_line(aes(y = trade_balance, color = \"Trade Balance\"), linewidth = 1) +\n  geom_line(aes(y = income_balance, color = \"Income Balance\"), linewidth = 1) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", alpha = 0.5) +\n  labs(\n    title = paste(my_country, \": CA, TB, and Income Balance\"),\n    subtitle = paste(start_date, \"–\", end_date),\n    x = NULL,\n    y = \"Millions (local currency)\",\n    color = NULL\n  ) +\n  theme_minimal(base_size = 12) +\n  theme(legend.position = \"bottom\")\n\n\n\n\nCurrent Account decomposition\n\n\n\n\n\n\n\n\n\n\n💡 Key Question for Class Discussion:\n\n\n\nQ: What explains the difference between CA and TB?\nA: Income Balance (r × B), which represents international asset earnings/payments"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#a.-calculate-domestic-absorption",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#a.-calculate-domestic-absorption",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "2.1 2A. Calculate Domestic Absorption",
+    "text": "2.1 2A. Calculate Domestic Absorption\nDomestic Absorption = C + I + G\nThis is total domestic spending (consumption + investment + government).\n\nProj1 &lt;- Proj1 %&gt;%\n  mutate(dom_abs = cons + inv + govexp)\n\n# Quick check\nProj1 %&gt;%\n  select(year, nGDP, dom_abs, CA) %&gt;%\n  head() %&gt;%\n  knitr::kable(digits = 0, caption = \"GDP, Absorption, and CA (first 6 years)\")\n\n\nGDP, Absorption, and CA (first 6 years)\n\n\nyear\nnGDP\ndom_abs\nCA\n\n\n\n\n2000\n5069820\n5543275\n373544\n\n\n2001\n5345001\n6061942\n226628\n\n\n2002\n5769578\n6766900\n199974\n\n\n2003\n6317303\n6991474\n197984\n\n\n2004\n6954282\n7927919\n110990\n\n\n2005\n7614411\n9098803\n-307470\n\n\n\n\n\n\n\n\n\n\n\n📚 Theory reminder:\n\n\n\nCA = GDP − (C + I + G)\nOr equivalently: CA = GDP − Domestic Absorption\n\nWhen absorption &gt; GDP → CA is negative (borrowing)\nWhen GDP &gt; absorption → CA is positive (lending)"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#b.-plot-gdp-absorption-and-ca-faceted",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#b.-plot-gdp-absorption-and-ca-faceted",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "2.2 2B. Plot GDP, Absorption, and CA (Faceted)",
+    "text": "2.2 2B. Plot GDP, Absorption, and CA (Faceted)\n\nProj1_long_abs &lt;- Proj1 %&gt;%\n  select(year, nGDP, dom_abs, CA) %&gt;%\n  pivot_longer(\n    cols = c(nGDP, dom_abs, CA),\n    names_to = \"variable\",\n    values_to = \"value\"\n  ) %&gt;%\n  mutate(\n    panel = case_when(\n      variable %in% c(\"nGDP\", \"dom_abs\") ~ \"Income and Domestic Absorption\",\n      variable == \"CA\" ~ \"Current Account\"\n    ),\n    variable = recode(\n      variable,\n      nGDP = \"Nominal GDP\",\n      dom_abs = \"Domestic Absorption\",\n      CA = \"Current Account\"\n    )\n  )\n\nggplot(Proj1_long_abs, aes(x = year, y = value, color = variable)) +\n  geom_line(linewidth = 1) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", alpha = 0.5) +\n  facet_wrap(~ panel, ncol = 1, scales = \"free_y\") +\n  labs(\n    title = paste(my_country, \": Income, Absorption, and the Current Account\"),\n    subtitle = paste(start_date, \"–\", end_date),\n    x = NULL,\n    y = NULL,\n    color = NULL\n  ) +\n  theme_minimal(base_size = 12) +\n  theme(legend.position = \"bottom\")\n\n\n\n\nIncome, Domestic Absorption, and Current Account\n\n\n\n\n\n\n\n\n\n\n🤖 Copilot prompt:\n\n\n\n# Write a paragraph explaining what it means when domestic absorption exceeds GDP"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#a.-calculate-national-savings",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#a.-calculate-national-savings",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "3.1 3A. Calculate National Savings",
+    "text": "3.1 3A. Calculate National Savings\nNational Savings = GDP − C − G\n(We subtract consumption and government spending from GDP)\n\nProj1 &lt;- Proj1 %&gt;%\n  mutate(savings = nGDP - (cons + govexp))\n\n# Summary stats\nProj1 %&gt;%\n  summarise(\n    mean_savings = mean(savings, na.rm = TRUE),\n    mean_investment = mean(inv, na.rm = TRUE),\n    mean_CA = mean(CA, na.rm = TRUE)\n  ) %&gt;%\n  knitr::kable(digits = 0, caption = \"Average Savings, Investment, and CA\")\n\n\nAverage Savings, Investment, and CA\n\n\nmean_savings\nmean_investment\nmean_CA\n\n\n\n\n1175354\n2620013\n445426\n\n\n\n\n\n\n\n\n\n\n\n📚 Theory reminder:\n\n\n\nCA = S − I\n\nWhen S &gt; I → CA positive (country is lending/saving abroad)\nWhen I &gt; S → CA negative (country is borrowing to invest)"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#b.-plot-savings-investment-and-ca",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#b.-plot-savings-investment-and-ca",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "3.2 3B. Plot Savings, Investment, and CA",
+    "text": "3.2 3B. Plot Savings, Investment, and CA\n\nProj1_sav_inv_long &lt;- Proj1 %&gt;%\n  select(year, savings, inv, CA) %&gt;%\n  pivot_longer(\n    cols = c(savings, inv, CA),\n    names_to = \"variable\",\n    values_to = \"value\"\n  ) %&gt;%\n  mutate(\n    panel = if_else(variable == \"CA\", \"Current Account\", \"Savings and Investment\"),\n    variable = recode(\n      variable,\n      savings = \"Savings\",\n      inv = \"Investment\",\n      CA = \"Current Account (CA)\"\n    )\n  )\n\nggplot(Proj1_sav_inv_long, aes(x = year, y = value, color = variable)) +\n  geom_line(linewidth = 1) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", alpha = 0.5) +\n  facet_wrap(~ panel, ncol = 1, scales = \"free_y\") +\n  labs(\n    title = paste(my_country, \": Savings, Investment, and the Current Account\"),\n    subtitle = paste(start_date, \"–\", end_date),\n    x = NULL,\n    y = NULL,\n    color = NULL\n  ) +\n  theme_minimal(base_size = 12) +\n  theme(legend.position = \"bottom\")\n\n\n\n\nSavings, Investment, and Current Account"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#a.-correlation-matrix",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#a.-correlation-matrix",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "4.1 4A. Correlation Matrix",
+    "text": "4.1 4A. Correlation Matrix\nLet’s see how GDP, absorption, and trade balance move together.\n\ncor_matrix &lt;- Proj1 %&gt;%\n  select(nGDP, dom_abs, trade_balance, CA) %&gt;%\n  cor(use = \"complete.obs\")\n\ncor_matrix %&gt;%\n  knitr::kable(digits = 3, caption = \"Correlation Matrix\")\n\n\nCorrelation Matrix\n\n\n\nnGDP\ndom_abs\ntrade_balance\nCA\n\n\n\n\nnGDP\n1.000\n0.996\n0.712\n0.610\n\n\ndom_abs\n0.996\n1.000\n0.653\n0.544\n\n\ntrade_balance\n0.712\n0.653\n1.000\n0.973\n\n\nCA\n0.610\n0.544\n0.973\n1.000"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#b.-gdp-vs-trade-balance",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#b.-gdp-vs-trade-balance",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "4.2 4B. GDP vs Trade Balance",
+    "text": "4.2 4B. GDP vs Trade Balance\n\ncor_gdp_tb &lt;- cor(Proj1$nGDP, Proj1$trade_balance, use = \"complete.obs\")\ncor_gdp_ca &lt;- cor(Proj1$nGDP, Proj1$CA, use = \"complete.obs\")\n\nglue(\"Correlation (GDP, TB) = {round(cor_gdp_tb, 4)}\")\n\nCorrelation (GDP, TB) = 0.7122\n\nglue(\"Correlation (GDP, CA) = {round(cor_gdp_ca, 4)}\")\n\nCorrelation (GDP, CA) = 0.6096\n\n\n\n\n\n\n\n\n🔍 Interpretation:\n\n\n\n\nNegative correlation: Trade balance/CA moves opposite to GDP (counter-cyclical)\nPositive correlation: Trade balance/CA moves with GDP (pro-cyclical)"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#c.-scatter-gdp-vs-trade-balance",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#c.-scatter-gdp-vs-trade-balance",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "4.3 4C. Scatter: GDP vs Trade Balance",
+    "text": "4.3 4C. Scatter: GDP vs Trade Balance\n\nggplot(Proj1, aes(x = nGDP, y = trade_balance)) +\n  geom_point(size = 3, alpha = 0.6) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", color = \"gray50\") +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"blue\") +\n  labs(\n    title = paste(my_country, \": Nominal GDP vs Trade Balance\"),\n    subtitle = paste(start_date, \"–\", end_date),\n    x = \"Nominal GDP\",\n    y = \"Trade Balance\"\n  ) +\n  theme_minimal(base_size = 12)\n\n\n\n\nGDP vs Trade Balance relationship"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#d.-scatter-domestic-absorption-vs-trade-balance",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#d.-scatter-domestic-absorption-vs-trade-balance",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "4.4 4D. Scatter: Domestic Absorption vs Trade Balance",
+    "text": "4.4 4D. Scatter: Domestic Absorption vs Trade Balance\n\ncor_abs_tb &lt;- cor(Proj1$dom_abs, Proj1$trade_balance, use = \"complete.obs\")\n\nggplot(Proj1, aes(x = dom_abs, y = trade_balance)) +\n  geom_point(size = 3, alpha = 0.6) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", color = \"gray50\") +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"red\") +\n  labs(\n    title = paste(my_country, \": Domestic Absorption vs Trade Balance\"),\n    subtitle = glue(\"Correlation = {round(cor_abs_tb, 3)}\"),\n    x = \"Domestic Absorption\",\n    y = \"Trade Balance\"\n  ) +\n  theme_minimal(base_size = 12)\n\n\n\n\nDomestic Absorption vs Trade Balance"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#e.-time-series-gdp-absorption-and-tb",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#e.-time-series-gdp-absorption-and-tb",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "4.5 4E. Time Series: GDP, Absorption, and TB",
+    "text": "4.5 4E. Time Series: GDP, Absorption, and TB\n\nProj1_long_cyc &lt;- Proj1 %&gt;%\n  select(year, nGDP, dom_abs, trade_balance) %&gt;%\n  pivot_longer(\n    cols = c(nGDP, dom_abs, trade_balance),\n    names_to = \"variable\",\n    values_to = \"value\"\n  ) %&gt;%\n  mutate(\n    panel = case_when(\n      variable %in% c(\"nGDP\", \"dom_abs\") ~ \"Income and Domestic Absorption\",\n      variable == \"trade_balance\" ~ \"Trade Balance\"\n    ),\n    variable = recode(\n      variable,\n      nGDP = \"Nominal GDP\",\n      dom_abs = \"Domestic Absorption\",\n      trade_balance = \"Trade Balance\"\n    )\n  )\n\nggplot(Proj1_long_cyc, aes(x = year, y = value, color = variable)) +\n  geom_line(linewidth = 1) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", alpha = 0.5) +\n  facet_wrap(~ panel, ncol = 1, scales = \"free_y\") +\n  labs(\n    title = paste(my_country, \": Income, Absorption, and the Trade Balance\"),\n    subtitle = paste(start_date, \"–\", end_date),\n    x = NULL,\n    y = NULL,\n    color = NULL\n  ) +\n  theme_minimal(base_size = 12) +\n  theme(legend.position = \"bottom\")\n\n\n\n\nGDP, Absorption, and Trade Balance over time"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#a.-government-revenues-expenditures-and-deficit",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#a.-government-revenues-expenditures-and-deficit",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "5.1 5A. Government Revenues, Expenditures, and Deficit",
+    "text": "5.1 5A. Government Revenues, Expenditures, and Deficit\n\nProj1_gov_long &lt;- Proj1 %&gt;%\n  select(year, govrev, govexp, govdef) %&gt;%\n  pivot_longer(\n    cols = c(govrev, govexp, govdef),\n    names_to = \"variable\",\n    values_to = \"value\"\n  ) %&gt;%\n  mutate(\n    panel = if_else(variable == \"govdef\",\n                    \"Government Deficit\",\n                    \"Government Revenues and Expenditures\"),\n    variable = recode(\n      variable,\n      govrev = \"Government Revenue\",\n      govexp = \"Government Expenditure\",\n      govdef = \"Government Deficit\"\n    )\n  )\n\nggplot(Proj1_gov_long, aes(x = year, y = value, color = variable)) +\n  geom_line(linewidth = 1) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", alpha = 0.5) +\n  facet_wrap(~ panel, ncol = 1, scales = \"free_y\") +\n  labs(\n    title = paste(my_country, \": Government Revenues, Expenditures, and Deficit\"),\n    subtitle = paste(start_date, \"–\", end_date),\n    x = NULL,\n    y = NULL,\n    color = NULL\n  ) +\n  theme_minimal(base_size = 12) +\n  theme(legend.position = \"bottom\")\n\n\n\n\nGovernment fiscal position"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#b.-government-deficit-and-current-account",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#b.-government-deficit-and-current-account",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "5.2 5B. Government Deficit and Current Account",
+    "text": "5.2 5B. Government Deficit and Current Account\nAre “twin deficits” present? (Government deficit and CA deficit moving together)\n\nProj1_govdef_ca_long &lt;- Proj1 %&gt;%\n  select(year, govdef, CA) %&gt;%\n  pivot_longer(\n    cols = c(govdef, CA),\n    names_to = \"variable\",\n    values_to = \"value\"\n  ) %&gt;%\n  mutate(\n    variable = recode(\n      variable,\n      govdef = \"Government Deficit\",\n      CA = \"Current Account\"\n    )\n  )\n\nggplot(Proj1_govdef_ca_long, aes(x = year, y = value, color = variable)) +\n  geom_line(linewidth = 1) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", alpha = 0.5) +\n  facet_wrap(~ variable, ncol = 1, scales = \"free_y\") +\n  labs(\n    title = paste(my_country, \": Government Balance and Current Account\"),\n    subtitle = paste(start_date, \"–\", end_date),\n    x = NULL,\n    y = NULL\n  ) +\n  theme_minimal(base_size = 12) +\n  theme(legend.position = \"none\")\n\n\n\n\nGovernment balance vs Current Account\n\n\n\n\n\ncor_govdef_ca &lt;- cor(Proj1$govdef, Proj1$CA, use = \"complete.obs\")\nglue(\"Correlation (Gov Deficit, CA) = {round(cor_govdef_ca, 4)}\")\n\nCorrelation (Gov Deficit, CA) = -0.082"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#c.-as-of-gdp",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#c.-as-of-gdp",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "5.3 5C. As % of GDP",
+    "text": "5.3 5C. As % of GDP\n\nProj1_govdef_ca_gdp_long &lt;- Proj1 %&gt;%\n  select(year, govdef_GDP, CA_GDP) %&gt;%\n  pivot_longer(\n    cols = c(govdef_GDP, CA_GDP),\n    names_to = \"variable\",\n    values_to = \"value\"\n  ) %&gt;%\n  mutate(\n    variable = recode(\n      variable,\n      govdef_GDP = \"Government Deficit (% GDP)\",\n      CA_GDP = \"Current Account (% GDP)\"\n    )\n  )\n\nggplot(Proj1_govdef_ca_gdp_long, aes(x = year, y = value, color = variable)) +\n  geom_line(linewidth = 1) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", alpha = 0.5) +\n  facet_wrap(~ variable, ncol = 1, scales = \"free_y\") +\n  labs(\n    title = paste(my_country, \": Government Balance (% GDP) and Current Account (% GDP)\"),\n    subtitle = paste(start_date, \"–\", end_date),\n    x = NULL,\n    y = \"Percent of GDP\"\n  ) +\n  theme_minimal(base_size = 12) +\n  theme(legend.position = \"none\")\n\n\n\n\nGovernment deficit and CA as % of GDP"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#save-your-work",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#save-your-work",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "6.1 6. Save Your Work",
+    "text": "6.1 6. Save Your Work\nExport the cleaned dataset with all calculated variables.\n\n# Create filename\nclean_file &lt;- paste0(\n  \"Proj1_clean_\",\n  gsub(\" \", \"_\", my_country),\n  \"_\",\n  start_date,\n  \"_\",\n  end_date,\n  \".xlsx\"\n)\n\n# Write to Excel\nwrite_xlsx(Proj1, clean_file)\n\nglue(\"✅ Exported cleaned data to: {clean_file}\")\n\n✅ Exported cleaned data to: Proj1_clean_Thailand_2000_2019.xlsx"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#what-we-learned-today",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#what-we-learned-today",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "7.1 What We Learned Today",
+    "text": "7.1 What We Learned Today\n\n✅ How to load and filter Excel data in R\n✅ Current Account = Trade Balance + Income Balance\n✅ CA = GDP − (C + I + G) (absorption approach)\n✅ CA = S − I (savings-investment approach)\n✅ How to create professional time-series and scatter plots\n✅ How to calculate correlations and interpret them\n✅ How to use Copilot to speed up coding\n✅ How to render a Quarto document to HTML/PDF"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#student-checklist-what-to-submit",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#student-checklist-what-to-submit",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "7.2 Student Checklist (What to Submit)",
+    "text": "7.2 Student Checklist (What to Submit)\n\n\n\n\n\n\n📋 Before you submit:\n\n\n\n\n✅ Change my_country, start_date, end_date to YOUR chosen values\n✅ Re-run ALL code chunks from top to bottom\n✅ Render to HTML: quarto render proj1-gmd-live-demo.qmd --to html\n✅ Check that all plots show YOUR country’s data\n✅ Submit:\n\nYour rendered .html file\nYour edited .qmd file\nYour cleaned .xlsx export (optional)\nYour GitHub repo link (if applicable)"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#copilot-prompts-you-can-try",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#copilot-prompts-you-can-try",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "7.3 Copilot Prompts You Can Try",
+    "text": "7.3 Copilot Prompts You Can Try\n\n\n\n\n\n\n🤖 Useful prompts for your project:\n\n\n\nFor understanding: - “Explain what the current account measures in plain English” - “Why would a country have a negative current account?” - “What’s the difference between trade balance and current account?”\nFor coding: - “Add a column that calculates CA as percent of GDP” - “Create a scatter plot with a regression line” - “Write code to export only specific columns to Excel”\nFor writing: - “Write a paragraph explaining why this country’s CA is negative/positive” - “Summarize the relationship between government deficit and CA in 3 sentences” - “What does a correlation of X mean in this context?”"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#resources",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#resources",
+    "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
+    "section": "7.4 Resources",
+    "text": "7.4 Resources\n\nQuarto Documentation: https://quarto.org/docs/\nGitHub Copilot for Students: https://education.github.com/pack\nPositron IDE: https://positron.posit.co\nggplot2 Reference: https://ggplot2.tidyverse.org\nYour instructor: YOUR-EMAIL"
+  },
+  {
+    "objectID": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#questions",
+    "href": "resources/AI for Economics worskhop/proj1-gmd-live-demo.html#questions",
     "title": "Project 1 Live Demo: Current Account Dynamics (GMD Data)",
     "section": "7.5 Questions?",
     "text": "7.5 Questions?\n\n\n\n\n\n\n💬 After class:\n\n\n\n\nEmail me with questions: YOUR-EMAIL\nOffice hours: [YOUR DAYS/TIMES]\nPost in course discussion board\nWork with classmates!\n\n\n\n\n🎉 Congratulations! You’ve completed the live demo!\nNow try changing the country, re-running all chunks, and rendering your own version!\n\n\n✅ Demo complete! Now customize and render your own version."

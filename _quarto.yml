@@ -18,6 +18,8 @@ website:
         href: teaching.qmd
       - text: Presentations
         href: presentations.qmd
+      - text: Resources
+        href: resources.qmd
       
 format:
   html:
