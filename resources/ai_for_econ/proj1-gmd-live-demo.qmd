@@ -9,7 +9,7 @@ format:
   html:
     toc: true
     toc-depth: 2
-    number-sections: true
+    number-sections: false
     code-fold: false
     theme: cosmo
 execute:
@@ -18,7 +18,7 @@ execute:
   message: false
 ---
 
-## 🎯 Goal for today
+# 🎯 Goal for today
 
 By the end of this demo, everyone will be able to:
 
@@ -59,7 +59,7 @@ quarto render proj1-gmd-live-demo.qmd --to pdf
 
 ---
 
-## Step 0 — Install/Load Packages
+# Step 1 — Install/Load Packages
 
 Run this chunk FIRST. If you get errors, you may need to install packages first.
 
@@ -81,7 +81,7 @@ Type this comment in a code chunk and press `Tab` or `Ctrl+I`:
 Copilot will suggest code to auto-install missing packages!
 :::
 
-## Step 1 — Student Inputs (EDIT THESE!)
+# Step 2 — Student Inputs (EDIT THESE!)
 
 **👉 Students: Change these three variables for YOUR project**
 
@@ -120,7 +120,7 @@ if (!file.exists(data_file)) {
 
 ---
 
-## Step 2 — Read and Filter Data
+# Step 3 — Read and Filter Data
 
 This loads the Excel file and filters it to your chosen country and years.
 
