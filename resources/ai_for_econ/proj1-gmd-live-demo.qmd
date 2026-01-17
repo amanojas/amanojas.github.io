@@ -1,7 +1,9 @@
 ---
 title: "Project 1 Live Demo: Current Account Dynamics (GMD Data)"
 subtitle: "Follow-along Quarto doc (Positron + Copilot + R)"
-author: "Aman Desai"
+author:
+  - Christopher Ball
+  - Aman Desai
 date: today
 format:
   html:
