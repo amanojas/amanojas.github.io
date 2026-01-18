@@ -832,7 +832,7 @@ glue("✅ Exported cleaned data to: {clean_file}")
 - **GitHub Copilot for Students:** https://education.github.com/pack
 - **Positron IDE:** https://positron.posit.co
 - **ggplot2 Reference:** https://ggplot2.tidyverse.org
-- **Your instructor:** YOUR-EMAIL
+- **Your instructor:** aman.desai@quinnipiac.edu
 
 ---
 
@@ -840,9 +840,8 @@ glue("✅ Exported cleaned data to: {clean_file}")
 
 :::{.callout-note}
 ### 💬 After class:
-- Email me with questions: YOUR-EMAIL
-- Office hours: [YOUR DAYS/TIMES]
-- Post in course discussion board
+- Email me with questions: aman.desai@quinnipiac.edu
+- Office hours: MoWeFri 3:00-4:15 PM
 - Work with classmates!
 :::
 
