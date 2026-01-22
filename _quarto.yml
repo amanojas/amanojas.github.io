@@ -11,7 +11,7 @@ website:
       - text: Home
         href: index.qmd
       - text: CV
-        href: /cv-aman-desai.pdf  
+        href: /aman_desai_cv.pdf  
       - text: Research
         href: research.qmd
       - text: Teaching
