@@ -3,6 +3,8 @@ title: "Teaching"
 ---
 
 ### Quinnipiac University (Fall 2025 - Current)
+
+- **EC 272 - Advanced Applied Statistics** — [Syllabus](/teaching_content/EC 272/ec272-syllabus.pdf)
 - **EC 112 — Principles of Macroeconomics** — [Syllabus](/teaching_content/EC 112/ec112_04_syllabus.pdf)
 - **EC 111 — Principles of Microeconomics** — [Syllabus](/teaching_content/EC 111/ec111_03_course_syllabus.docx)
 

@@ -7,7 +7,9 @@ title: "Resources"
 - **AI for Economists — Two-session Workshop** (Spring 2026)
 
  Two 50-minute sessions introducing practical AI tools for economic analysis.
+
+ - [Setup Guide](/resources/ai_for_econ/Setup-Guide.pdf)
     <!-- + Session 1 — [Session 1 materials](/resources/ai_for_econ/proj1-gmd-live-demo.html) -->
 
-- Session 2 — [AI use in course project](/resources/ai_for_econ/proj1-gmd-live-demo.html)
+- [Session 2 — AI use in course project](/resources/ai_for_econ/proj1-gmd-live-demo.html)
 
