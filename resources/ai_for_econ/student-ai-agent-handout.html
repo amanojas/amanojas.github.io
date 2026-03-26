@@ -75,11 +75,10 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>one code chunk only</li>
 <li>short explanation</li>
-<li>one validation check</li>
 </ol>
 <p>Use this exact line in prompts:</p>
 <blockquote class="blockquote">
-<p>“Return code first, then explanation, then one validation check.”</p>
+<p>“Return code first, then explanation.”</p>
 </blockquote>
 <!-- ## Naming Rule (Important)
 
@@ -93,7 +92,7 @@ Use this instruction in every prompt:
 <h2 class="anchored" data-anchor-id="setup-prompt-copypaste">Setup Prompt (Copy/Paste)</h2>
 <pre class="text"><code>I am working in an R Quarto file for a project related to current account dynamics.
 Create a .qmd file that renders to an html output file. 
-Write one code chunk to load tidyverse, readxl, writexl, and glue. Use pacman package to install and load the packages at once. Then explain briefly what each package is used for. Return code first, then explanation, then one validation check.</code></pre>
+Write one code chunk to load tidyverse, readxl, writexl, and glue. Use pacman package to install and load the packages at once. Then explain briefly what each package is used for. Return code first, then explanation.</code></pre>
 </section>
 <section id="inputs-prompt-copypaste" class="level2">
 <h2 class="anchored" data-anchor-id="inputs-prompt-copypaste">Inputs Prompt (Copy/Paste)</h2>
@@ -105,14 +104,14 @@ data_file &lt;- "GMD_sub_1995_2019.xlsx"
 
 save the data_file as df. 
 Also add a file-existence check that stops with a clear error if missing.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="read-filter-prompt" class="level2">
 <h2 class="anchored" data-anchor-id="read-filter-prompt">Read + Filter Prompt</h2>
 <pre class="text"><code>Write one R chunk to read the Excel file into df and filter by my_country and year range.
 Add a compact summary table with country, min_year, max_year, n_rows, n_columns.
 Explain how this prevents downstream errors.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="question-by-question-prompts-matching-the-live-demo" class="level2">
 <h2 class="anchored" data-anchor-id="question-by-question-prompts-matching-the-live-demo">Question-by-Question Prompts (Matching the live demo)</h2>
@@ -121,119 +120,119 @@ Return code first, then explanation, then one validation check.</code></pre>
 <pre class="text"><code>Use df as the dataset. Write one ggplot chunk for CA and trade_balance over time.
 Include a zero line, clear labels, and title/subtitle using my_country/start_date/end_date.
 Then explain how to interpret divergence between CA and trade_balance.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q1b-current-account-vs-trade-balance-scatter" class="level3">
 <h3 class="anchored" data-anchor-id="q1b-current-account-vs-trade-balance-scatter">Q1B) Current Account vs Trade Balance (Scatter)</h3>
 <pre class="text"><code>Use df as the dataset. Write one ggplot scatter chunk of CA (x) vs trade_balance (y) with zero lines and a 45-degree reference line.
 Give 3 interpretation bullets for points above/below the 45-degree line.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q1c-correlation-between-ca-and-trade-balance" class="level3">
 <h3 class="anchored" data-anchor-id="q1c-correlation-between-ca-and-trade-balance">Q1C) Correlation Between CA and Trade Balance</h3>
 <pre class="text"><code>Use df as the dataset. Write one R chunk to compute Pearson correlation between CA and trade_balance.
 Return a short sentence with the rounded value.
 Explain why this correlation can be close to 1 but not exactly 1.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q1d-income-balance-ca---trade-balance" class="level3">
 <h3 class="anchored" data-anchor-id="q1d-income-balance-ca---trade-balance">Q1D) Income Balance = CA - Trade Balance</h3>
 <pre class="text"><code>Use df as the dataset. Write one R chunk to create income_balance = CA - trade_balance.
 Then show summary statistics: mean, median, min, max.
 Explain the economic meaning of income_balance.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q1e-plot-ca-trade-balance-and-income-balance" class="level3">
 <h3 class="anchored" data-anchor-id="q1e-plot-ca-trade-balance-and-income-balance">Q1E) Plot CA, Trade Balance, and Income Balance</h3>
 <pre class="text"><code>Use df as the dataset. Write one ggplot time-series chunk with CA, trade_balance, and income_balance.
 Add a zero line and readable labels.
 Then explain what drives the gap between CA and trade_balance.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q2a-domestic-absorption-c-i-g" class="level3">
 <h3 class="anchored" data-anchor-id="q2a-domestic-absorption-c-i-g">Q2A) Domestic Absorption = C + I + G</h3>
 <pre class="text"><code>Use df as the dataset. Write one R chunk to create dom_abs = cons + inv + govexp.
 Show a small table with year, nGDP, dom_abs, and CA.
 Explain CA = GDP - absorption in plain English.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q2b-plot-gdp-absorption-and-current-account" class="level3">
 <h3 class="anchored" data-anchor-id="q2b-plot-gdp-absorption-and-current-account">Q2B) Plot GDP, Absorption, and Current Account</h3>
 <pre class="text"><code>Use df as the dataset. Write one faceted time-series plot for nGDP, dom_abs, and CA.
 Put nGDP and dom_abs in one panel and CA in another panel.
 Then explain what to look for when absorption exceeds GDP.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q3a-savings-gdp---c---g" class="level3">
 <h3 class="anchored" data-anchor-id="q3a-savings-gdp---c---g">Q3A) Savings = GDP - C - G</h3>
 <pre class="text"><code>Use df as the dataset. Write one R chunk to create savings = nGDP - (cons + govexp).
 Then report average savings, investment, and CA.
 Explain CA = S - I in plain English.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q3b-plot-savings-investment-and-current-account" class="level3">
 <h3 class="anchored" data-anchor-id="q3b-plot-savings-investment-and-current-account">Q3B) Plot Savings, Investment, and Current Account</h3>
 <pre class="text"><code>Use df as the dataset. Write one faceted time-series plot for savings, inv, and CA.
 Then explain what it implies when investment is above savings.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q4a-correlation-matrix" class="level3">
 <h3 class="anchored" data-anchor-id="q4a-correlation-matrix">Q4A) Correlation Matrix</h3>
 <pre class="text"><code>Use df as the dataset. Write one chunk to compute a correlation matrix for nGDP, dom_abs, trade_balance, and CA.
 Format output cleanly.
 Then explain what high/low correlations mean in this context.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q4b-gdp-with-trade-balance-and-current-account" class="level3">
 <h3 class="anchored" data-anchor-id="q4b-gdp-with-trade-balance-and-current-account">Q4B) GDP with Trade Balance and Current Account</h3>
 <pre class="text"><code>Use df as the dataset. Write one R chunk to compute correlations of nGDP with trade_balance and with CA.
 Interpret signs/magnitudes with one caveat.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q4c-scatter-gdp-vs-trade-balance" class="level3">
 <h3 class="anchored" data-anchor-id="q4c-scatter-gdp-vs-trade-balance">Q4C) Scatter: GDP vs Trade Balance</h3>
 <pre class="text"><code>Use df as the dataset. Write one scatter plot of nGDP (x) vs trade_balance (y) with an lm trend line.
 Then explain whether the relationship appears pro-cyclical or counter-cyclical.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q4d-scatter-domestic-absorption-vs-trade-balance" class="level3">
 <h3 class="anchored" data-anchor-id="q4d-scatter-domestic-absorption-vs-trade-balance">Q4D) Scatter: Domestic Absorption vs Trade Balance</h3>
 <pre class="text"><code>Use df as the dataset. Write one scatter plot of dom_abs (x) vs trade_balance (y) with an lm trend line.
 Include the correlation value in the subtitle.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q4e-time-series-gdp-absorption-trade-balance" class="level3">
 <h3 class="anchored" data-anchor-id="q4e-time-series-gdp-absorption-trade-balance">Q4E) Time Series: GDP, Absorption, Trade Balance</h3>
 <pre class="text"><code>Use df as the dataset. Write one faceted time-series plot for nGDP, dom_abs, and trade_balance.
 Then explain how this helps interpret business-cycle comovement.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q5a-government-revenues-expenditures-and-deficit" class="level3">
 <h3 class="anchored" data-anchor-id="q5a-government-revenues-expenditures-and-deficit">Q5A) Government Revenues, Expenditures, and Deficit</h3>
 <pre class="text"><code>Use df as the dataset. Write one faceted time-series plot for govrev, govexp, and govdef.
 Then explain what this says about fiscal stance over time.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q5b-government-deficit-vs-current-account" class="level3">
 <h3 class="anchored" data-anchor-id="q5b-government-deficit-vs-current-account">Q5B) Government Deficit vs Current Account</h3>
 <pre class="text"><code>Use df as the dataset. Write one chunk to plot govdef and CA over time in separate facets.
 Compute their correlation and provide a cautious interpretation of twin deficits.
 Include one sentence: correlation does not imply causality.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q5c-as-percent-of-gdp" class="level3">
 <h3 class="anchored" data-anchor-id="q5c-as-percent-of-gdp">Q5C) As Percent of GDP</h3>
 <pre class="text"><code>Use df as the dataset. Write one faceted time-series plot for govdef_GDP and CA_GDP.
 Label the y-axis as percent of GDP.
 Then explain how % of GDP improves cross-country interpretation.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 <section id="q6-export-cleaned-data" class="level3">
 <h3 class="anchored" data-anchor-id="q6-export-cleaned-data">Q6) Export Cleaned Data</h3>
 <pre class="text"><code>Write one R chunk to export df (with all created variables) to Excel as:
 Proj1_clean_&lt;country&gt;_&lt;start&gt;_&lt;end&gt;.xlsx
 Use underscores for spaces in country names.
-Return code first, then explanation, then one validation check.</code></pre>
+Return code first, then explanation.</code></pre>
 </section>
 </section>
 <section id="writing-prompt-for-your-report" class="level2">
