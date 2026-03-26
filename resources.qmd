@@ -13,4 +13,4 @@ title: "Resources"
 
 - [Session 2 — AI use in course project](/resources/ai_for_econ/proj1-gmd-live-demo.html)
 
-- [Session 2 - Student Handout](/resources/ai_for_econ/student-ai-agent-handout.html)
+- [Student Handout](/resources/ai_for_econ/student-ai-agent-handout.html)
